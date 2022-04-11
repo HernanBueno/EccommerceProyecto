@@ -16,7 +16,7 @@ const validarRuta = (req, res, next) => {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(validarRuta);
+//app.use(validarRuta);
 
 app.use('/productos', routerProductos);
 app.use('/carrito', routerCarrito);
