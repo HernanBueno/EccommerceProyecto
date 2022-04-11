@@ -21,6 +21,7 @@ app.use(validarRuta);
 app.use('/productos', routerProductos);
 app.use('/carrito', routerCarrito);
 //server corriendo
-app.listen(4000, () => {
+
+app.listen(PORT, () => {
     console.log("servidor corriendo");
 });
